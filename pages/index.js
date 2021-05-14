@@ -26,18 +26,17 @@ export default function Home() {
           <Image
             src="/images/beach_zeek.jpg"
             alt="Image"
-            width={1200}
-            height={1600}
+            width={3000}
+            height={4000}
             loading="lazy"
             quality={35}
             sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
           />
           <Image
-            src="/images/disney.jpg"
+            src="/images/switzerland.jpg"
             alt="Image"
             width={1600}
             height={1200}
-            loading="lazy"
             quality={35}
             sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
           />
@@ -100,6 +99,15 @@ export default function Home() {
               loading="lazy"
               quality={35}
               sizes="(max-width: 600px) 100vw, (max-width: 1023px) 48vw, 23vw"
+            />
+            <Image
+              src="/images/rocket_dark.png"
+              alt="Image"
+              width={768}
+              height={1058}
+              loading="lazy"
+              quality={90}
+              sizes="768px"
             />
         </div>
       </div>
